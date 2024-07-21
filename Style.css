@@ -1,0 +1,425 @@
+body{
+    background-color:beige;
+}
+.heading{
+    background-color: cadetblue;
+    height: 60px;
+    font-size: 52px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+.Alphabets{
+    background-color: blueviolet;
+    width: 100%;
+    height: 20px;
+    text-align: center;    
+}
+.Alphabets a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.top{
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+.top li{
+    display: inline;
+    position: fixed;
+    left: 85%;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    top:27%;
+    background-color: grey;
+    z-index: 1;
+}
+.top li a{
+    text-decoration: none;
+    color: floralwhite;
+}
+.top li:hover a{
+    background-color: brown;
+    color: rgb(247, 246, 243);
+    padding: 10px;
+    border-radius: 12px;
+}
+.containner{
+    width: 100%;
+    height: auto;
+    background-color: rgb(204, 21, 30);
+    position: relative;
+    display: flex;
+}
+.containner p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.Apple img{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid  rgb(204, 21, 30);
+    border-radius: 12px;
+
+}
+.containner-2{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(149, 204, 21);
+}
+.containner-2 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.Banana img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid yellow;
+    border-radius: 12px;
+}
+
+.containner-3{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(221, 235, 190);
+}
+.containner-3 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.Cat img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid  rgb(221, 235, 190);
+    border-radius: 12px;
+}
+
+.containner-4{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgba(39, 46, 24, 0.651);
+}
+.containner-4 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.Dog img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid  rgba(39, 46, 24, 0.651);
+    border-radius: 12px;
+}
+
+.containner-5{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgba(38, 39, 37, 0.651);
+}
+.containner-5 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.Elephant img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid  rgba(38, 39, 37, 0.651);
+    border-radius: 12px;
+}
+
+.containner-6{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(221, 235, 190);
+}
+.containner-6 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.Frog img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid  rgba(38, 39, 37, 0.651);
+    border-radius: 12px;
+}
+
+.containner-7{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(73, 247, 73);
+}
+.containner-7 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.Grapes img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid  rgb(73, 247, 73);
+    border-radius: 12px;
+}
+.containner-8{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(244, 250, 244);
+}
+.containner-8 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.Hand img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(208 218 208);
+    border-radius: 12px;
+}
+
+.containner-9{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(244, 250, 244);
+}
+.containner-9 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.INK img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(208 218 208);
+    border-radius: 12px;
+}
+
+.containner-10{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(232, 245, 59);
+}
+.containner-10 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+}
+.Jerry img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(232, 245, 59);
+    border-radius: 12px;
+}
+.containner-11{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(20, 20, 20);
+}
+.containner-11 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    color: aliceblue;
+}
+.Keyboard img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 12px;
+}
+
+.containner-11{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(20, 20, 20);
+}
+.containner-11 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    color: aliceblue;
+}
+.Keyboard img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 12px;
+}
+
+.containner-11{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(20, 20, 20);
+}
+.containner-11 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    color: aliceblue;
+}
+.Keyboard img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 12px;
+}
+
+.containner-12{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(107, 81, 81);
+}
+.containner-12 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    color: aliceblue;
+}
+.lion img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 12px;
+}
+
+.containner-13{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(208, 236, 47);
+}
+.containner-13 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    color: aliceblue;
+}
+.Mangoe img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(224, 243, 54);
+    border-radius: 12px;
+}
+.containner-14{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(65, 66, 60);
+}
+.containner-14 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    color: rgb(169, 194, 216);
+}
+.Nest img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(224, 243, 54);
+    border-radius: 12px;
+}
+
+.containner-15{
+    width: 100%;
+    height: 85px;
+    position: relative;
+    display: flex;
+    background-color: rgb(65, 66, 60);
+}
+.containner-15 p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 22%;
+    color: rgb(230, 233, 235);
+}
+.Owl img{
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    right: 5%;
+    top: 2px;
+    border: 2px solid rgb(64, 65, 56);
+    border-radius: 12px;
+}
